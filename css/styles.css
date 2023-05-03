@@ -1,9 +1,6 @@
 body {
-    background-color: purple;
-}
-
-.container{
-   
+    background-color: rgb(121, 63, 202);
+    
 }
 
 .card{
@@ -15,11 +12,12 @@ body {
 }
 
 .login-con{
+    position: relative;
     background-color: rgb(91, 51, 184);
     width: 15rem;
     height: 20rem;
     margin-top: 5rem;
-    margin-left: 30rem;
+    margin-left: 33rem;
     border-radius: 10px;
 }
 
@@ -29,10 +27,58 @@ h3{
     color: white;
     font-size: 18px;
     margin-top: 3rem;
-    margin-left: 5rem;
+    margin-left: 5.5rem;
 }
 
 .input-group-lg{
-    display: flex;
+    display: inline-block;
     
+}
+
+img{
+    position: absolute;
+    width: 31rem;
+    margin-top: 5rem;
+}
+
+.first-input {
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.second-input{
+    margin-left: 1rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+button{
+    width: 9rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+#log-but{
+    color: white;
+    font-weight: bold;
+}
+
+#log-but :hover{
+    color: crimson;
+}
+svg{
+    margin-left: -12rem;
+    color: rgba(170, 181, 20, 0.992);
 }
